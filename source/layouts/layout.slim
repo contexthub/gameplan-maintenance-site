@@ -10,13 +10,11 @@ html lang="en"
 
     = stylesheet_link_tag "main", type: false
 
-  body class=page_classes
+  body
     .navbar
-      .navbar-innerhome
-        .container
-          .row
-            .col-lg-offset-4.col-lg-5
-              = image_tag("img-gplogo@2x.png", width: 200, height: 40)
+      .navbar-header
+        .navbar-brand
+          = image_tag("img-gplogo@2x.png", width: 200, height: 40)
     #main.container
       = yield
     = partial 'footer_short'
