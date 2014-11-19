@@ -4,19 +4,21 @@
     text-align: center;
     width: 100%;
     position: relative;
-    bottom: 20px;
+    bottom: 5px;
 }
 
-.navbar-brand {float:none;}
+.navbar-brand {
+  float:none;
+}
 
 .data-box {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-  position:relative;
+  -moz-box-shadow: 0px 0px 7px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 7px 0px #ccc;
+  box-shadow: 0px 0px 7px 0px #ccc;
+  position: relative;
   top: 100px;
   width: 500px;
-  height: 300px;
+  height: 200px;
   font-weight: bold;
   font-size: 120%;
   padding-top: 25px;
