@@ -10,9 +10,11 @@ gameplan-maintenance-site
 
 ## .s3_sync file
 
-   ---
-   aws_access_key_id: <AWS Access Key>
-   aws_secret_access_key: <AWS Secret Access Key>
+```
+---
+aws_access_key_id: <AWS Access Key>
+aws_secret_access_key: <AWS Secret Access Key>
+```
 
 ## Site url
 
