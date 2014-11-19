@@ -19,3 +19,13 @@ aws_secret_access_key: <AWS Secret Access Key>
 ## Site url
 
    http://gameplan-maintenance-dev.s3.amazonaws.com/index.html
+
+## Heroku configuration
+
+```
+heroku config:set MAINTENANCE_PAGE_URL=http://gameplan-maintenance-dev.s3.amazonaws.com/index.html --app gameplanb2b-staging
+
+heroku maintenance:on --app gameplanb2b-staging
+
+heroku maintenance:off --app gameplanb2b-staging
+```
