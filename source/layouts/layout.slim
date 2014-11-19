@@ -14,7 +14,9 @@ html lang="en"
     .navbar
       .navbar-innerhome
         .container
-          = image_tag("img-gplogo@2x.png", width: 200, height: 40, class: "centerlogo")
+          .row
+            .col-lg-offset-4.col-lg-5
+              = image_tag("img-gplogo@2x.png", width: 200, height: 40)
     #main.container
       = yield
     = partial 'footer_short'
