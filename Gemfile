@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem 'middleman', '~> 3.3.6'
+gem 'middleman'
 
 # Live-reloading plugin
-gem 'middleman-livereload', '~> 3.3.4'
+gem 'middleman-livereload'
 # Deploy plugin
-gem 'middleman-deploy', '~> 0.3.0'
+gem 'middleman-deploy'
 # Images compress plugin
-gem 'middleman-imageoptim', '~> 0.1.4'
+gem 'middleman-imageoptim'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
@@ -16,7 +16,7 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # Slim template engine
-gem 'slim', '~> 2.1.0'
+gem 'slim'
 
 # Assets
 gem 'bootstrap-sass', '~> 3.2.0', require: false
