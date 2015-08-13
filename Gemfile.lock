@@ -205,7 +205,7 @@ DEPENDENCIES
   middleman-imageoptim
   middleman-livereload
   middleman-s3_sync
-  rails-assets-jquery
+  rails-assets-jquery!
   slim
   tzinfo-data
   wdm (~> 0.1.0)

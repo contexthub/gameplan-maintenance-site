@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
 
 gem 'middleman'
 
@@ -20,6 +19,9 @@ gem 'slim'
 
 # Assets
 gem 'bootstrap-sass', '~> 3.2.0', require: false
-gem 'rails-assets-jquery', require: false
 
 gem 'middleman-s3_sync'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery', require: false
+end
